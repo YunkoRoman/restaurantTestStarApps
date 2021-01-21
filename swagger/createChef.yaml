@@ -1,0 +1,30 @@
+paths:
+  /chef/create:
+    post:
+      description: Create new chef
+      parameters:
+        - in: body
+          name: sign up
+          surname: sign up
+          yearOfExperience:
+          description: It enables  to create chef
+          required: true
+
+
+      responses:
+        201:
+          description: Success
+
+definitions:        # Schema defination for request body
+  Chef:
+    type: object
+    properties:
+      chef:
+        type: object
+        properties:
+          name:
+            type: string
+          surname:
+            type: string
+          yearOfExperience:
+            type: number

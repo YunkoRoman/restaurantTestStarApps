@@ -1,0 +1,12 @@
+paths:
+ /menu/getMenuWithDishes/{id}:
+  get:
+   description: Get menu with dishes
+   parameters:
+      - name: id
+        in: path
+   responses:
+     200:
+      description: Success
+
+

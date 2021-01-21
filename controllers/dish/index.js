@@ -1,0 +1,1 @@
+module.exports.dishController = require('./dish.controller');

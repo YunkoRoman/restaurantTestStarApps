@@ -1,0 +1,1 @@
+module.exports.chefControllers = require('./chef.controllers');

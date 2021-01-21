@@ -1,0 +1,23 @@
+paths:
+  /menu/create:
+    post:
+      description: Create new menu
+      parameters:
+        - in: body
+          name: sign up
+          required: true
+
+
+      responses:
+        201:
+          description: Success
+
+definitions:        # Schema defination for request body
+  Menu:
+    type: object
+    properties:
+      menu:
+        type: object
+        properties:
+          name:
+            type: string

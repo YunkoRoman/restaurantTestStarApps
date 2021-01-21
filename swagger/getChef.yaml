@@ -1,0 +1,9 @@
+paths:
+ /chef:
+  get:
+   description: Get all chefs
+   responses:
+     200:
+      description: Success
+
+
