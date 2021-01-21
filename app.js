@@ -24,7 +24,9 @@ const swaggerOptions = {
         "./swagger/createChef.yaml",
         "./swagger/createDish.yaml",
         "./swagger/getMenuWithDishes.yaml",
-        "./swagger/createMenu.yaml"]
+        "./swagger/createMenu.yaml",
+        "./swagger/updateChef.yaml",
+        "./swagger/deleteChef.yaml"]
 };
 const swaggerDocs = swaggerJsDoc(swaggerOptions);
 

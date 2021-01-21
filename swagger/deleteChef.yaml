@@ -1,9 +1,10 @@
 paths:
- /menu/getMenuWithDishes/{id}:
-  get:
+ /chef/delete/{id}:
+  delete:
     tags:
-      - Menu
-    description: Get menu with dishes
+      - Chef
+    summary: It delete a chef
+    description: Delete a Chef
     parameters:
       - name: id
         in: path

@@ -1,6 +1,8 @@
 paths:
   /dish/create:
     post:
+      tags:
+        - Dish
       description: Create new dishes
       parameters:
         - in: body

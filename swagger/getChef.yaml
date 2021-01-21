@@ -1,9 +1,11 @@
 paths:
- /chef:
-  get:
-   description: Get all chefs
-   responses:
-     200:
-      description: Success
+  /chef:
+    get:
+      tags:
+        - Chef
+      description: Get all chefs
+      responses:
+        200:
+        description: Success
 
 

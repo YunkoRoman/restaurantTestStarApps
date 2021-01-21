@@ -1,6 +1,8 @@
 paths:
   /menu/create:
     post:
+      tags:
+        - Menu
       description: Create new menu
       parameters:
         - in: body

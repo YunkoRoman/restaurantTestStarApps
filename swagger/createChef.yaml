@@ -1,6 +1,8 @@
 paths:
   /chef/create:
     post:
+      tags:
+        - Chef
       description: Create new chef
       parameters:
         - in: body

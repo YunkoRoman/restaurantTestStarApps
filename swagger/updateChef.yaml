@@ -1,0 +1,38 @@
+paths:
+  /chef/update/{id}:
+    put:
+      tags:
+        - Chef
+      summary: It updates a chef profile detail
+      produces:
+      - application/json
+      parameters:
+        - name: id
+          in: path
+          description: path parameter takes the chef id
+          required: true
+          type: number
+        - in: body
+          name:
+          surname:
+          yearOfExperience:
+          description: It enables a user to update chef profile
+          required: true
+
+      responses:
+        200:
+          description: Success
+
+definitions:
+  updateChef:
+    type: object
+    properties:
+      chef:
+        type: object
+        properties:
+          name:
+            type: string
+          surname:
+            type: string
+          yearOfExperience:
+            type: number
